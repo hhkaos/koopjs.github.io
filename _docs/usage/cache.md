@@ -14,7 +14,7 @@ To be used by Koop, the cache must be registered with the Koop object before the
 ```js
 const Koop = require('koop')
 const koop = new Koop()
-const cache = require('koop-cache-redis')
+const cache = require('@koopjs/cache-redis')
 koop.register(cache)
 koop.server.listen(80)
 ```
